@@ -26,6 +26,7 @@ A1 A1 A1
 		expected = len(ArrayFichas().saco)-1
 		ArrayFichas().eliminar_ficha(ficha)
 		self.assertEqual(len(ArrayFichas().saco),expected)
-
+	def test_directo(self):
+		self.assertEqual(ArrayFichas().eje(),10)
 if __name__ == '__main__':
 	unittest.main()
