@@ -20,3 +20,5 @@ class Test_EJER(unittest.TestCase):
         self.assertEqual(factorial(1),1)#de1
 	def test_factorial_2(self):
 	self.assertEqual(factorial(2),2)#de2
+	def test_suma(self):
+	self.assertEqual(suma(2,2),4)
