@@ -17,11 +17,8 @@ A1 A1 A1
 """
 		self.assertEqual(expected,f.imprimir())
 
-	def test_long_array(self):
-
-		self.assertEqual(len(ArrayFichas().saco),71)
-
-	def test_directo(self):
+	def test_directo(self)
 		self.assertEqual(ArrayFichas().eje(),10)
+		
 if __name__ == '__main__':
 	unittest.main()
