@@ -21,11 +21,6 @@ A1 A1 A1
 
 		self.assertEqual(len(ArrayFichas().saco),71)
 
-	def test_eliminar_ficha_saco(self):
-		ficha = ArrayFichas().sacar_ficha(26)
-		expected = len(ArrayFichas().saco)-1
-		ArrayFichas().eliminar_ficha(ficha)
-		self.assertEqual(len(ArrayFichas().saco),expected)
 	def test_directo(self):
 		self.assertEqual(ArrayFichas().eje(),10)
 if __name__ == '__main__':
