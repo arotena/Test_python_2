@@ -17,8 +17,6 @@ A1 A1 A1
 """
 		self.assertEqual(expected,f.imprimir())
 
-	def test_directo(self)
-		self.assertEqual(ArrayFichas().eje(),10)
 		
 if __name__ == '__main__':
 	unittest.main()
